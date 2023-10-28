@@ -24,8 +24,8 @@
             <img id="logo" src="images/logo/Booki.png" alt="Booki logo">
             <nav>
                 <ul class="navbar">
-                    <li> <a class="navbar-btn" id="Hebergement" href="#Hebergement">Hébergement</a></li>
-                    <li> <a class="navbar-btn" href="#Activites"> Activites</a> </li>
+                    <li> <a href="#Hebergement">Hébergement</a></li>
+                    <li> <a href="#Activites"> Activites</a> </li>
                 </ul>
             </nav>
         </header>
@@ -50,14 +50,14 @@
                             placeholder="Marseille, France">
                         <button type="submit" class="searchbar-txt searchbar-btn">
                             <span>Rechercher</span></button>
-                        <button type="submit" class="searchbar-mobile"> <i  class="fa-solid fa-magnifying-glass"></i>
-
+                        <button type="submit" class="searchbar-mobile"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
                     </fieldset>
                 </form>
                 <!-- Filtre-->
                 <div class="filters">
                     <h2 class="filters-title">Filters</h2>
-                    <div class="filterbar filterbar-btn-txt">
+                    <div class="filterbar ">
                         <div class="filterbar-part">
                             <a class="filterbar-btn " href="#">
                                 <i class="fa-solid fa-money-bill-wave"></i>
@@ -305,33 +305,41 @@
             </div>
         </main>
         <!-- Activites  -->
-        <h3>
-            <a id="Activites" class="Activites"> Activites à Marseille </a>
-        </h3>
-        <div class="cardActivites">
-            <!-- item/activite 1 Vieux-Port-->
-            <article class="card-activites">
-                <img src="./images/activites/reno-laithienne.jpg" alt="Vieux-Port"><br>
-                <h4>Vieux-Port</h4>
-            </article>
-            <!-- item 2 Fort de Pomègues-->
-            <article class="card-activites">
-                <img src="./images/activites/paul-hermann.jpg" alt="Fort de Pomègues"><br>
-                <h4>Fort de Pomègues</h4>
-            </article>
-            <!-- item 3 Parc national des Calanques -->
-            <article class="card-activites">
-                <img src="./images/activites/kilyan-sockalingum.jpg" alt="Parc national des Calanques"><br>
-                <h4>Parc national des Calanques</h4>
-
-            </article>
-            <!-- item 4 Notre-Dame-de-la-Garde -->
-            <article class="card-activites">
-                <img src="./images/activites/florian-wehde.jpg" alt="Notre-Dame-de-la-Garde"><br>
-                <h4>Notre-Dame-de-la-Garde</h4>
-            </article>
-        </div>
-
+        <section class="Activites">
+            <h3>
+                <a id="Activites" class="Activites"> Activites à Marseille </a>
+            </h3>
+            <div class="cardActivites">
+                <!-- item/activite 1 Vieux-Port-->
+                <figure class="card-activites">
+                    <img src="./images/activites/reno-laithienne.jpg" alt="Vieux-Port"><br>
+                    <figcaption>
+                        <h4>Vieux-Port</h4>
+                    </figcaption>
+                </figure>
+                <!-- item 2 Fort de Pomègues-->
+                <figure class="card-activites">
+                    <img src="./images/activites/paul-hermann.jpg" alt="Fort de Pomègues"><br>
+                    <figcaption>
+                        <h4>Fort de Pomègues</h4>
+                    </figcaption>
+                </figure>
+                <!-- item 3 Parc national des Calanques -->
+                <figure class="card-activites">
+                    <img src="./images/activites/kilyan-sockalingum.jpg" alt="Parc national des Calanques"><br>
+                    <figcaption>
+                        <h4>Parc national des Calanques</h4>
+                    </figcaption>
+                </figure>
+                <!-- item 4 Notre-Dame-de-la-Garde -->
+                <figure class="card-activites">
+                    <img src="./images/activites/florian-wehde.jpg" alt="Notre-Dame-de-la-Garde"><br>
+                    <figcaption>
+                        <h4>Notre-Dame-de-la-Garde</h4>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
 
         <!-- footer -->
         <footer>

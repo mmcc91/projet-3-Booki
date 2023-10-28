@@ -72,7 +72,6 @@ li {
     text-decoration: none;
     position: relative;
     list-style-type: none;
-
 }
 
 li:after {
@@ -95,7 +94,6 @@ li:hover::after {
     display: flex;
     margin-top: 10px;
     justify-content: flex-end;
-
 }
 
 /* goup-info ****/
@@ -139,8 +137,8 @@ li:hover::after {
     color: inherit;
     width: 50px;
     height: 49px;
-}
 
+}
 
 .searchbar-btn {
     display: flex;
@@ -149,7 +147,6 @@ li:hover::after {
     color: white;
     border-radius: 0 15px 15px 0;
     background-color: #0065FC;
-
 }
 
 .searchbar-btn i {
@@ -228,7 +225,6 @@ li:hover::after {
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     margin: 5% 0;
-
 }
 
 .card img {
@@ -329,6 +325,8 @@ h4 {
     background-color: var(--main-bg-color);
     gap: 30px;
     max-height: 580px;
+    width: fit-content;
+   height: fit-content;
 }
 
 .populaires-title {
@@ -354,7 +352,7 @@ h4 {
 .populaires-cards .card-content {
     padding-left: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     box-sizing: content-box;
 }
@@ -445,7 +443,7 @@ footer {
     margin-left: 0%;
     margin-right: 0%;
     padding: 30px 0 30px 30px;
-    gap: calc(15%);
+    gap:15%;
     margin-bottom: 0;
 }
 
@@ -498,10 +496,9 @@ footer ul {
 
     }
 
-    /* hebergements a marseille- */
+    /* hebergements a marseille tablette - */
     .hebergements {
         display: flex;
-        flex-direction: row;
         justify-content: center;
         width: 100%;
         margin-left: 0%;
@@ -509,11 +506,7 @@ footer ul {
 
     }
 
-    .hebergements-items {
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-    }
+
 
     /*  <a class=card-link  href="#"> */
     /* les plus populaires */
@@ -537,7 +530,6 @@ footer ul {
 
     .card {
         align-content: center;
-
         width: 264px;
         height: 146px;
     }
@@ -640,7 +632,6 @@ footer ul {
 
     .populaires {
         display: flex;
-        flex-direction: column;
         max-height: 10000px;
     }
 
@@ -656,8 +647,6 @@ footer ul {
         flex-direction: column;
         background-color: white;
     }
-
-
 
     .section-title {
         margin-bottom: 3%;
@@ -682,7 +671,6 @@ footer ul {
     }
 
     .hebergements-items .card-hebergements {
-
         width: 335px;
         height: 207px;
         display: flex;
@@ -690,6 +678,11 @@ footer ul {
         justify-content: space-between;
         box-sizing: border-box;
         padding: 2%;
+    }
+
+    .card-hebergements {
+        box-shadow: 1px 1px grey;
+    
     }
 
     /* Activites  */
