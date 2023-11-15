@@ -107,9 +107,11 @@ li:hover::after {
 /* group-info search **/
 .searchbar {
     border-radius: 15px 15px 15px 15px;
-    border: none;
-    padding: 0;
 
+    padding: 0;
+    display: flex;
+    width: 377px;
+    border: none;
 }
 
 .research {
@@ -117,19 +119,15 @@ li:hover::after {
     border-radius: 13px 0 0 13px;
 }
 
-.searchbar fieldset {
-    display: flex;
-    width: 377px;
-    border-radius: 15px 15px 15px 15px;
-    border-style: solid;
-    border-color: #F2F2F2
-}
 
 .searchbar input {
     width: 100%;
     text-align: center;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    border-right: none;
+    border-left: none;
 
-    border-style: none;
 }
 
 .searchbar input::placeholder {
@@ -499,10 +497,7 @@ footer ul {
         padding: 0%;
     }
 
-    .main-container {
-        padding: 0%;
-        padding-left: 1%;
-    }
+
 
     /* Booki */
     /* Filtre- */
@@ -529,12 +524,16 @@ footer ul {
         margin-bottom: 5%;
     }
 
+    .hebergements .card-content .section-title {
+        padding: 2%;
+    }
 
     /* les plus populaires */
     .populaires {
         display: flex;
         margin: 0%;
         min-height: 120px;
+        border-radius: 0;
     }
 
     .populaires-cards {
@@ -580,6 +579,10 @@ footer ul {
     .body {
         flex-direction: row;
         align-items: center;
+    }
+
+    .main-container {
+        padding: 0%;
     }
 
     /* Booki */
@@ -634,9 +637,7 @@ footer ul {
         border-radius: 13px;
     }
 
-    .searchbar fieldset {
-        width: 98%;
-    }
+
 
     .searchbar-btn {
         display: none;
@@ -653,6 +654,10 @@ footer ul {
         display: flex;
         flex-direction: column-reverse;
         gap: 30px;
+    }
+
+    .hebergements-and-populaires section {
+        border-radius: 0px;
     }
 
     /* POPULAIRE */
