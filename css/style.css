@@ -110,7 +110,7 @@ li:hover::after {
 
     padding: 0;
     display: flex;
-    width: 377px;
+
     border: none;
 }
 
@@ -500,6 +500,10 @@ footer ul {
 
 
     /* Booki */
+
+    .group-info{
+        padding: 0px 15px;
+    }
     /* Filtre- */
     .filters {
         display: flex;
@@ -612,12 +616,7 @@ footer ul {
     /* groupes textes boutons till filtre */
     /* textes */
     /* Bouton */
-    .headline,
-    .filters,
-    .searchbar,
-    .info {
-        margin-left: 3%;
-    }
+
 
     .searchbar-mobile {
         display: flex;
